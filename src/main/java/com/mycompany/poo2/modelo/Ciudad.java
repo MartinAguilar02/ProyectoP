@@ -47,6 +47,7 @@ public class Ciudad {
             String provincia = datos[2].strip();
             Ciudad ciudad = new Ciudad(nombre,provincia);
             ciudades.add(ciudad);
+            line = br.readLine();
             }
         }catch(IOException e){
                 e.printStackTrace();}

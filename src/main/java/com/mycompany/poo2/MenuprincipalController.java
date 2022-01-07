@@ -5,10 +5,28 @@
  */
 package com.mycompany.poo2;
 
+import java.io.IOException;
+import javafx.fxml.FXML;
+
 /**
  *
  * @author User
  */
 public class MenuprincipalController {
-    
+    private void switchToAdministarCiudades() throws IOException {
+        App.setRoot("administrarciudades");
+    }
+    private void switchToAdministrarDuenos() throws IOException {
+        App.setRoot("administrard");
+    }
+    private void switchToAdministrarAuspiciantes() throws IOException {
+        App.setRoot("administrara");
+    }
+    private void switchToAdministarConcursos() throws IOException {
+        App.setRoot("concursos");
+    }
+    @FXML
+    private void switchToSecondary() throws IOException {
+        App.setRoot("secondary");
+    }
 }

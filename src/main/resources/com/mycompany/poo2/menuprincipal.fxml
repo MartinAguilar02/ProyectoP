@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<FlowPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.poo2.MenuprincipalController">
+<FlowPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.poo2.MenuprincipalController">
    <children>
       <VBox prefHeight="401.0" prefWidth="600.0">
          <children>
@@ -43,7 +43,7 @@
                   <Insets left="200.0" top="15.0" />
                </VBox.margin>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="171.0" text="Administrar Mascotas ">
+            <Button mnemonicParsing="false" onAction="#switchToSecondary" prefHeight="31.0" prefWidth="171.0" text="Administrar Mascotas ">
                <font>
                   <Font size="14.0" />
                </font>
